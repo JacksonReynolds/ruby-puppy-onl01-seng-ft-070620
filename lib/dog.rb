@@ -14,5 +14,5 @@ class Dog
       puts dog_instance.name
     end #do
   end #print_all
-  
+
 end #Dog
