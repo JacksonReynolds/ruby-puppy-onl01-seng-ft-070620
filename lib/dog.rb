@@ -24,7 +24,7 @@ class Dog
   end #save
 
   def self.clear_all
-    @@.clear
+    @@all.clear
   end #clear_all
 
 end #Dog
