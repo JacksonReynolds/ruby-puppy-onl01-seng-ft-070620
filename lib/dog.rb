@@ -6,7 +6,6 @@ class Dog
 
   def initialize(name)
     @name = name
-    @@all << self
   end #initialize
 
   def self.all
@@ -18,5 +17,9 @@ class Dog
       puts dog_instance.name
     end #do
   end #print_all
+
+  def save
+    @@all << self
+  end #save
 
 end #Dog
